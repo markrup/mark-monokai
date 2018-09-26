@@ -1,0 +1,28 @@
+{
+	"name": "mark-monokai",
+	"displayName": "Mark Monokai",
+	"publisher": "Mark4518",
+	"description": "",
+	"version": "0.1.2",
+	"engines": {
+		"vscode": "^1.27.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Mark Monokai",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mark Monokai-color-theme.json"
+			}
+		]
+	},
+	"homepage": "https://github.com/mark4518/mark-monokai/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mark4518/mark-monokai.git"
+	}
+}
