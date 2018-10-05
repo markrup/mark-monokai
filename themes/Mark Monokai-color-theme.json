@@ -3,7 +3,7 @@
 		{
 			"settings": {
 				"background": "#282c34",
-				"foreground": "#abb2bf",
+				"foreground": "#EBEBEB",
 				"findHighlight": "#FFE792",
 				"findHighlightForeground": "#000000",
 				"selectionBorder": "#222218",
@@ -47,14 +47,14 @@
 			"name": "Component attributes",
 			"scope": ["meta.object-literal.key"],
 			"settings": {
-				"foreground": "#CCCCCC"
+				"foreground": "#EBEBEB"
 			}
 		},
 		{
 			"name": "Component attributes",
 			"scope": ["variable.other.constant", "variable.other.readwrite"],
 			"settings": {
-				"foreground": "#CCCCCC",
+				"foreground": "#EBEBEB",
 				"fontStyle": "italic"
 			}
 		},
@@ -62,7 +62,7 @@
 			"name": "TemplateString",
 			"scope": "meta.template.expression.js",
 			"settings": {
-				"foreground": "#abb2bf"
+				"foreground": "#EBEBEB"
 			}
 		},
 		{
@@ -134,7 +134,7 @@
 				"keyword.control.at-rule.import.scss"
 			],
 			"settings": {
-				"foreground": "#C586C0"
+				"foreground": "#c678dd"
 			}
 		},
 		{
@@ -250,7 +250,7 @@
 			"name": "Function call",
 			"scope": "entity.name.function-call",
 			"settings": {
-				"foreground": "#abb2bf"
+				"foreground": "#EBEBEB"
 			}
 		},
 		{
@@ -323,7 +323,7 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#abb2bf"
+				"foreground": "#E0E0E0"
 			}
 		},
 		{
