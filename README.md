@@ -6,10 +6,6 @@ Simple monokai theme. Still work in progress.
 
 ## Screenshots
 
-### Typescript
+![ScreenShot](typescript.png)
 
-![Theme Screenshot](typescript.png)
-
-### Json
-
-![Theme Screenshot](json.png)
+![ScreenShot](json.png)
