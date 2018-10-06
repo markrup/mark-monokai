@@ -26,7 +26,7 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#d69d85"
+				"foreground": "#E07079"
 			}
 		},
 		{
@@ -47,22 +47,14 @@
 			"name": "Component attributes",
 			"scope": ["meta.object-literal.key"],
 			"settings": {
-				"foreground": "#EBEBEB"
-			}
-		},
-		{
-			"name": "Component attributes",
-			"scope": ["variable.other.constant", "variable.other.readwrite"],
-			"settings": {
-				"foreground": "#EBEBEB",
-				"fontStyle": "italic"
+				"foreground": "#bbbbbbff"
 			}
 		},
 		{
 			"name": "TemplateString",
 			"scope": "meta.template.expression.js",
 			"settings": {
-				"foreground": "#EBEBEB"
+				"foreground": "#9CDCFE"
 			}
 		},
 		{
@@ -117,7 +109,6 @@
 		{
 			"name": "Keyword",
 			"scope": [
-				"keyword",
 				"keyword.operator.logical",
 				"keyword.operator.constructor"
 			],
@@ -128,6 +119,7 @@
 		{
 			"name": "Keyword import",
 			"scope": [
+				"keyword",
 				"keyword.control.import",
 				"keyword.control.export",
 				"keyword.control.from",
@@ -190,11 +182,37 @@
 		{
 			"name": "Other variable",
 			"scope": [
-				"variable.other.property",
 				"variable.other.block",
+				"variable.parameter",
 				"variable.other.object.property",
-				"variable.parameter"
+				"variable.object.property",
+				"variable.other.readwrite"
 			],
+			"settings": {
+				"foreground": "#bbbbbbff"
+			}
+		},
+		{
+			"name": "Other variable",
+			"scope": ["variable.other.property"],
+			"settings": {
+				"foreground": "#61afef"
+			}
+		},
+		{
+			"name": "Other variable",
+			"scope": [
+				"variable.other.object",
+				"variable.other.constant",
+				"variable.other.object.property"
+			],
+			"settings": {
+				"foreground": "#d19a66"
+			}
+		},
+		{
+			"name": "Other variable",
+			"scope": ["variable.parameter"],
 			"settings": {
 				"foreground": "#d19a66",
 				"fontStyle": "italic"
@@ -202,10 +220,12 @@
 		},
 		{
 			"name": "Other variable",
-			"scope": ["variable.object.property"],
+			"scope": [
+				"variable.other.readwrite.alias",
+				"support.variable.property.dom"
+			],
 			"settings": {
-				"foreground": "#d7d7d7",
-				"fontStyle": "italic"
+				"foreground": "#bbbbbbff"
 			}
 		},
 		{
@@ -242,7 +262,7 @@
 			"name": "Function name",
 			"scope": ["entity.name.function", "support.function"],
 			"settings": {
-				"foreground": "#DCDCAA"
+				"foreground": "#c678dd"
 			}
 		},
 
@@ -250,7 +270,7 @@
 			"name": "Function call",
 			"scope": "entity.name.function-call",
 			"settings": {
-				"foreground": "#EBEBEB"
+				"foreground": "#9CDCFE"
 			}
 		},
 		{
@@ -323,7 +343,7 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#E0E0E0"
+				"foreground": "#bbbbbbff"
 			}
 		},
 		{
