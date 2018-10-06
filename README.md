@@ -8,5 +8,8 @@ Simple monokai theme. Still work in progress.
 
 ### Typescript
 
-![Theme Screenshot](screenshot.png)
+![Theme Screenshot](typescript.png)
+
+### Json
+
 ![Theme Screenshot](json.png)
